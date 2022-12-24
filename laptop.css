@@ -1,0 +1,522 @@
+@media only screen and (min-width: 768px){
+  
+*{
+  
+  margin: 0px;
+  font-family:"inter", sans-serif ;
+  box-sizing: border-box;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+#nav-bar {
+    text-align: center;
+}
+.nav3{
+  flex-basis: 220px;
+  font-size: 22px;
+  padding-top: 30px;  
+}
+.nav{
+  /* canh chỉnh sử dụng bootchap */
+  flex-basis: 135px;
+  font-size: 12px;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  text-decoration: none;/* gạch dưới chân */
+  color: black;
+}
+.cc{
+  padding-bottom: 5px;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.text-banner {
+  position: absolute;
+  font-size: 17px;
+  top: 8%;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+  color: #f7f7f7;
+}
+.pss{
+  padding-left: 45px;
+  padding-right: 35px;
+  padding-top: 20px;
+  font-size: 12px;
+  color: darkgrey;
+  letter-spacing: 1px;
+}
+.pssfull{
+  color: darkgrey;
+  font-size: 12px; 
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+/* ss */
+.kt{
+  padding-left:  90px;
+}
+
+
+.liss0{
+  margin-bottom: 3px;
+  font-size: 18px;
+
+}
+/* css cho kỹ năng */
+.liss1{
+  padding: 0px 0px 30px 0;
+  line-height:27px;
+}
+.liss3{
+  padding: 0px 0px 10px 0;
+  line-height:27px;
+  font-size: 12px;
+}
+.liss2{
+  padding-top: 10px;
+  font-style:oblique;
+
+}
+
+
+.sd{
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+.img-avt{
+    transform: scale(5);
+    border: 2px solid #f7fcff;
+    border-radius: 50%;
+}
+
+.if-tg{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 24px;
+}
+
+.cv {
+    padding-bottom: 15px;
+    padding-left: 70px ;
+    
+    
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+}
+
+.container{
+  /* chỉnh mục tiêu nghề nghiệp */
+  font-size: 18px;
+  padding: 20px 0 0 42px;
+
+}
+
+.container2{
+padding-left: 84px; 
+}
+.container1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+  grid-template-areas: 
+  "aa bb cc"
+  "dd ee ff"
+  ;
+  margin:40px 0px 40px 0px;
+}
+.exp{
+  grid-area:aa ;
+}
+.act{
+  grid-area: dd ;
+}.ski{
+  grid-area: bb;
+}.edu{
+  grid-area:  ee;
+}.lang{
+  grid-area: cc ;
+}.hob{
+  grid-area: ff;
+}
+.container3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  /* grid-template-rows: 1fr 1fr 0.5fr 1.5fr; */
+  
+  grid-template-areas: 
+  "ab bc bd";
+  
+}
+.tt1{
+  grid-area: ab;
+}
+.tt2{
+  grid-area: bc;
+}
+.tt3{
+  grid-area: bd;
+}
+.section{
+  padding: 10px 0px  10px 0px;
+  border: 1px solid #EEEEEE;
+  margin:15px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0.5fr 3fr;  
+}
+.section1{ 
+  margin:15px;
+
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  padding-bottom: 10px;
+
+}
+
+
+.section-title {
+  font-weight: bold;/* độ dày chữ */
+  font-size: 19px;
+  /* text-transform: uppercase; */
+  height: 40px;
+  padding:0 0 80px 15px;
+  margin-top: 45px;
+
+}
+.dgic{
+  font-size: 360%;
+  margin:30px 0 0 10px;
+}
+.cl{
+  background-color:#E8E8E8 ;
+}
+
+.if1{
+  display: inline-block;
+  margin-top: -40px;
+  
+}
+
+.if2{
+  position: absolute;
+  margin-top: -244px;
+  margin-left: 132px;
+}
+
+.info-me {
+  font-size: 44px;
+  color: #0e2452;
+}
+
+
+#info {
+  position: relative;
+}
+
+.avt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 113px;
+  height: 113px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+
+.flex1 {
+  column-gap: 20px;
+  /* border-bottom: 1px solid #dee2e6; */
+  padding: 25px 5px 25px 5px;
+  text-align: left;
+  display:flex;
+  
+}
+.flex2 {
+  column-gap: 5px;
+  border-bottom: 1px solid #d6c08d;
+
+  padding: 5px;
+  text-align: left;
+  display:flex;
+  
+  
+  
+}
+.lg1{
+  margin: 40px 0px 40px 0px;
+  width: 100%;
+}
+.wh{
+  width: 100%;
+  position: relative;
+  
+}
+
+
+.flex_date1 {
+  min-width: 10%;
+  max-width: 55%;
+  padding: 40;
+}
+.cct1{
+  border-left: 1px solid #d6c08d;
+  }
+
+.flex_date2{
+  /* sử dụng cho chứng nhận giải thưởng */
+  min-width: 10%;
+  max-width: 73%;
+  padding: 40;
+}
+.section-content {
+  text-decoration: none;
+  grid-column: 1/3;
+  display: inline-block;
+}
+.sv1{
+  grid-column: 1/3;
+  padding-left: 11px;
+  text-decoration: none;
+  
+}
+.iconcolor1 {
+  color: darkgray;
+}
+
+
+
+.banner {
+  height: 100vh;
+}
+.dg1{
+  font-size: 400%;
+}
+
+span{
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span1{
+  background: dimgray;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px; 
+}
+.span2{
+  background: #199cdb;
+  display: inline-block;
+  border-radius: 10px;
+  height: 28px;
+  margin-right: 8px;
+  width: 60px;
+  padding-left: 11px;
+  padding-top: 5px;
+  font-size:  12px ;
+  color: white;
+}
+.span3{
+  background: #199cdb;
+  display: inline-block;
+  border-radius: 10px;
+  height: 29px;
+  margin-right: 8px;
+  width: 60px;
+  padding-left: 7px;
+  padding-top: 3px;
+  color: white;
+}
+.ctc{
+  
+  color: darkgray;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 12px;
+}
+.ctc1{
+    
+  text-decoration: none;
+  
+}
+.dg3{
+  width: 250px;
+  height: 150px;
+}
+
+
+.gt4{
+  position: absolute;
+} 
+
+.dadg{
+  padding: 15px 0 15px 5px;
+  border: 1px solid #EEEEEE;
+  margin-top: 0.1px;
+  left: 20px;
+} 
+.flex3{
+  display: flex;
+  column-gap: 10px;
+}
+
+.size{
+  height: 100%;
+  width: 30%;
+  padding-left: 5px;
+}
+
+.size2{
+  height: 100%;
+  width: 20%;
+}
+.tnt{
+  padding-left: 5px;
+}
+.dadg1{
+  padding: 0px 0 15px 0px;
+  border: 1px solid darkgray;
+  margin-top: 0.1px;
+  left: 20px;
+}
+
+ul{
+  padding-inline-start: 0px;
+
+}
+ 
+.daimg{
+  width:100%;
+  height: 100%;
+  
+}
+.daimg1{
+  width: 70%;
+  height: 100%;
+}
+.iconcolor{
+  color: #199cdb;
+
+}
+.iconcolorft{
+  color: white;
+}
+
+.iconhob {
+  font-size: 150%;
+  width: 50px;
+  height: 50px;
+  padding-top: 30%;
+  padding-left: 15%;
+  border: 2px solid #199cdb;
+  border-radius: 50%;
+  left: 30px;
+}
+.iconft {
+  font-size: 16px;
+  width: 65px;
+  height: 47px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2.5px;
+  background-color: #199cdb;
+  border: 2px solid #199cdb;
+  border-radius: 50%;
+  left: 25px;
+  margin-right: 10px;
+}
+.hob1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.hob1 i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+}
+
+.hobby-c{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 20px 0px;
+  grid-column: 1/3;
+}
+.navft {
+  flex-basis: 177px;
+  font-size: 17px;
+  padding-top: 30px;
+  text-transform: uppercase;
+  /* border-left: 1px solid #ccc; */
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: black;
+
+  
+}
+}
